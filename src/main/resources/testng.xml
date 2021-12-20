@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Todos Test Automation Test Suite">
+
+	<test name="Todos adding and removing Test Cases">
+		<parameter name="platform1" value="Backbone.js" />
+		<parameter name="platform2" value="AngularJS" />
+		<parameter name="platform3" value="Dojo" />
+		<parameter name="platform4" value="React" />
+		
+		<classes>
+			<class name="tests.ToDosTest"></class>
+		</classes>
+	</test>
+	
+</suite>
